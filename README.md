@@ -1,4 +1,4 @@
-# NodeJs server which uploads a file to S3 and dockerized the app for scaling it up using Kubernetes
+# NodeJs server which uploads a file to S3 and dockerized the application for scaling it up using Kubernetes
 
 The application takes AWS secret and access key from index.js file, by using this file it will create a S3 bucket and upload the file(image) to S3 bucket. This is achieved by dockerizing the application and deploying in Kubernetes.
 
